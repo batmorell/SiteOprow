@@ -2,7 +2,7 @@ body{
     padding-top:60px;
 }
 
-.head{
+#head{
     background: url("../img/iphone-bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11,13 +11,13 @@ body{
     height: 100vh;
 }
 
-.head h1{
+#head h1{
     line-height: calc(100vh - 60px);
     color:white;
     font-size: 10em;
 }
 
-.project{
+#project{
     background: url("../img/bg-table-macbook.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -26,13 +26,13 @@ body{
     height: 100vh;
 }
 
-.project h1{
+#project h1{
     line-height: calc(100vh - 60px);
     color:white;
     font-size: 10em;
 }
 
-.team{
+#team{
     background: url("../img/team-bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,13 +41,13 @@ body{
     height: 100vh;
 }
 
-.team h1{
+#team h1{
     line-height: calc(100vh - 60px);
     color:white;
     font-size: 10em;
 }
 
-.BL{
+#BL{
     background: url("../img/BL-bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -56,13 +56,13 @@ body{
     height: 100vh;
 }
 
-.BL h1{
+#BL h1{
     line-height: calc(100vh - 60px);
     color:white;
     font-size: 10em;
 }
 
-.contact{
+#contact{
     background: url("../img/contact-bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -71,7 +71,7 @@ body{
     height: 100vh;
 }
 
-.contact h1{
+#contact h1{
     line-height: calc(100vh - 60px);
     color:white;
     font-size: 10em;
