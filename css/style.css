@@ -14,7 +14,7 @@ body{
     color: white;
 }
 
-.nav-link:hover{
+.nav-link{
     height: 60px;
     background-color: inherit;
     color: inherit;
