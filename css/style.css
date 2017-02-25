@@ -20,6 +20,8 @@ body{
     color: inherit;
 }
 
+
+/*******************************************************************************************/
 #head{
    background: url("../img/app-hand-bg.png") no-repeat center center fixed;
    /*background:rgb(58, 130, 232) no-repeat center center fixed;*/
@@ -37,7 +39,7 @@ body{
     font-size: 2em;
     /*background-color: rgb(58,130,232);*/
     text-align:center;
-    font-family: Verdana;
+    font-family: "Arial Black";
     margin-top: 1%;
     margin-left:11%;
     margin-right:17.5%;
@@ -49,30 +51,15 @@ float:left;
     border-radius: 10px;
 }
 
-#text_head2{
-    color:white;
-    font-size: 2em;
-    /*background-color: rgb(58,130,232);*/
-    text-align:center;
-    font-family: "Arial Black";
-    margin-bottom: 2%;
-    
-    margin-right:1%;
-    float:right;
-    max-width:40%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    border-radius: 10px;
-}
 
 
 #head img{
     width: 34%;
 }
 
+/*********************************************************************************************/
 #project{
-    background: url("../img/code.jpg") no-repeat center center fixed;
+    background: url("../img/crowd.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -86,7 +73,46 @@ float:left;
     font-size: 2em;
 }
 
+#text_pr{
+    color:black;
+    font-size: 1em;
+    text-align: justify;
 
+
+    background-color:rgb(238,240,244); /*rgb(240,255,255);*/
+    
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:6%;
+    margin-bottom: 7%;
+    
+
+    max-height:78%;
+    max-width:80%;
+
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    border-radius: 10px;
+
+}
+
+.flotte{
+    float: right;
+}
+
+#logo_aff{
+    width: 235px;
+    height: 450px;
+    margin-left: 30px;
+    
+}
+
+  
+
+/*********************************************************************************/
 #text{
     color:black;
     font-size: 1em;
@@ -111,6 +137,7 @@ float:left;
     border-radius: 10px;
 }
 
+/***************************************************************************/
 
 #team{
     background: url("../img/campus.jpg") no-repeat center center fixed;
@@ -124,10 +151,54 @@ float:left;
 #team h1{
     color:black;
     font-size: 2em;
+    
 }
 
+#logo_ece{
+    float:left;
+    width:210px;
+    height: 45px;
+}
+
+.bg{
+    height: 200px;
+    width: auto;
+}
+
+ul li{
+    display: inline ;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+#text_eq{
+    color:black;
+    font-size: 1em;
+    text-align: justify;
+
+    background-color: white;/*rgb(187, 210, 225)rgb(240,255,255);*/
+    
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:7%;
+    margin-bottom: 10%;
+    
+
+    max-height:80%;
+    max-width:80%;
+
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    border-radius: 10px;
+}
+
+/**************************************************************************************************/
 #BL{
-    background: url("../img/berger.jpg") no-repeat center center fixed;
+    background: url("../img/000323027.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -135,10 +206,56 @@ float:left;
     height: 100vh;
 }
 
+
+#text_bl{
+    color:black;
+    font-size: 1em;
+    text-align: justify;
+
+    background-color: rgb(240,255,255);
+    
+    margin-left:2.5%;
+    margin-right:47.5%%;
+    margin-top:6.5%;
+    margin-bottom: 10%;
+    
+    max-height:90%;
+    max-width:35%;
+
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    border-radius: 10px;
+}
+
+
 #BL h1{
     color:black;
     font-size: 2em;
 }
+
+#logo_bl{
+    height:70px;
+    width:150px;
+    float:right;
+    margin-top: 40%;
+    margin-bottom: 10%;
+    margin-right: 2.5%;
+    margin-left: 47.5%;
+    background-color: rgb(240,255,255);
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    
+}
+
+
+
+/***************************************************************************************/
 
 #contact{
     background: url("../img/paris.jpg") no-repeat center center fixed;
@@ -173,4 +290,8 @@ float:left;
 .navbar-brand img{
     height: 20%;
     width: 15%;
+}
+
+i{
+    font-size:1.1em;
 }
