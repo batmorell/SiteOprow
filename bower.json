@@ -1,0 +1,21 @@
+{
+  "name": "SiteOprow",
+  "homepage": "https://github.com/batmorell/SiteOprow",
+  "authors": [
+    "batmorell <baptiste.morellab@gmail.com>"
+  ],
+  "description": "Site de presentation de l'application d'Oprow",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "tether": "^1.4.0"
+  }
+}
