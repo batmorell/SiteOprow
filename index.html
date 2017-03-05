@@ -21,6 +21,12 @@
     <![endif]-->
 </head>
 <body>
+
+<div id="Loading" class="text-center">
+    <img src="img/logo_animate.svg"/>
+    <img src="img/loading.svg"/>
+</div>
+
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -37,9 +43,9 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Le projet</a></li>
+                <li><a href="#project">Le projet</a></li>
                 <li><a href="#team">L'équipe</a></li>
-                <li><a href="#bergerLevrault">Berger-Levrault</a></li>
+                <li><a href="#BL">Berger-Levrault</a></li>
                 <li><a href="#contact">Nous contacter</a></li>
             </ul>
         </div>
@@ -66,7 +72,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h1 class="text-center"> Oprow est LA solution !</h1>
+                        <h1 class="text-center"> Oprow est <b>LA</b> solution !</h1>
                         <hr align="center">
                     </div>
                 </div>
@@ -100,10 +106,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-5" id="affluenceImg">
-                        <img src="img/affluence.png"/>
-                    </div>
-                    <div class="col-sm-7" id="affluenceTxt">
+                    <div class="col-sm-7 col-sm-push-5" id="affluenceTxt">
                         <h2><i>Affluence en temps réel</i></h2>
                         <p>
                             <br>
@@ -114,6 +117,9 @@
                             Vous savez alors imédiatement quand est-ce qu'il faut y aller pour attendre le moins
                             possible.
                         </p>
+                    </div>
+                    <div class="col-sm-5 col-sm-pull-7" id="affluenceImg">
+                        <img src="img/affluence.png"/>
                     </div>
                 </div>
                 <div class="row">
@@ -140,25 +146,25 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-2 col-sm-offset-1 text-center">
+                    <div class="col-sm-2 col-sm-offset-1 col-xs-6 text-center">
                         <img src="img/sacha.jpg" id="sacha" class="bg"/>
-                        <h4>Cécile Chomienne</h4>
+                        <h4>Cécile<br>Chomienne</h4>
                     </div>
-                    <div class="col-sm-2 text-center">
+                    <div class="col-sm-2 col-xs-6 text-center">
                         <img src="img/sacha.jpg" id="sacha" class="bg"/>
-                        <h4>Amaury Sanchez</h4>
+                        <h4>Amaury<br>Sanchez</h4>
                     </div>
-                    <div class="col-sm-2 text-center">
+                    <div class="col-sm-2 col-xs-6 text-center">
                         <img src="img/sacha.jpg" id="sacha" class="bg"/>
-                        <h4>Jean Dole</h4>
+                        <h4>Jean<br>Dole</h4>
                     </div>
-                    <div class="col-sm-2 text-center">
+                    <div class="col-sm-2 col-xs-6 text-center">
                         <img src="img/sacha.jpg" id="sacha" class="bg"/>
-                        <h4>Sacha kleynjans</h4>
+                        <h4>Sacha<br>kleynjans</h4>
                     </div>
-                    <div class="col-sm-2 text-center">
+                    <div class="col-sm-2 col-xs-6 text-center">
                         <img src="img/sacha.jpg" id="sacha" class="bg"/>
-                        <h4>Baptiste Morel-lab</h4>
+                        <h4>Baptiste<br>Morel-lab</h4>
                     </div>
                 </div>
             </div>
@@ -280,10 +286,11 @@
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- TypeKit integration -->
 <script src="https://use.typekit.net/vig0mlc.js"></script>
-<script>try {
-    Typekit.load({async: true});
-} catch (e) {
-}</script>
+<script>
+    try {
+        Typekit.load({async: false});
+    } catch (e) {}
+</script>
 
 <script src="js/script.js"></script>
 
